@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="bs.css">
+</head>
+<body>
+
+
+<div id='person' class="container">
+
+
+	<!-- <div data-model='contact' class="info" style="width: 300px;">
+
+		<div class="form-group" style=" display: inline;">
+			<label>phone</label>
+			<input type='text' data-key='phone' class="form-control" />
+			<label>facebook</label>
+			<input type='text' data-key='facebook' class="form-control" />
+		</div>
+
+		<div style="width: 300px; background: #aaa; display: inline;">
+			<h1 data-bind='contact.phone'> </h1>
+			<h1 data-bind='contact.facebook'> </h1>
+		</div>
+		
+	</div> -->
+	<div class="row">
+		<div class="col-md-6">
+			<h2>Student Id</h2>
+			<form class="form-inline">
+				<div id="stuId" class="form-group">
+					<label>Id:</label>
+					<input  id="sInput" class="form-control" placeholder="Student Id Please....">
+					<button id="sBtn">search</button>
+				</div>
+				<br>
+			</form>					
+			<div class="info" style="width: 200px;">
+				<div class="form-group" style="display: inline;">
+					<label>Name</label>
+					<input type="text" data-key='person.name'>
+					<label>Age</label>
+					<input type="text" data-key='person.age' class="form-control">
+					<label>Country</label>
+					<input type="text" data-key="person.country" class="form-control">
+					<!-- <label>image</label>
+					<input type="text" data-key="person.image" class="form-control"> -->
+					<div class="from-group">
+						<label>Picture :</label>
+						<input type="file" name="image" data-key="person.image"  >
+					</div>
+				</div>
+				<!--<div class="result">
+					<img data-bind="person.image" style="width: 200px; text-align: center;">
+					<h1 data-bind="person.name" class="name"></h1>
+					<h1 data-bind="person.age"></h1>
+					<h1 data-bind="person.country"></h1>
+				</div> -->
+			</div>
+		<hr>
+		</div>
+		<div class="col-md-6">
+			<div class="stuFilterd" style="border:1px solid red;">
+				
+			</div>
+		</div>
+	</div>
+
+
+
+	<pre class="json"></pre>
+</div>
+
+
+<script type="text/javascript" src='mvc2.js'></script>
+<script type="text/javascript" src='script.js'></script>
+<script type="text/javascript" src='lib.js'></script>
+</body>
+</html>

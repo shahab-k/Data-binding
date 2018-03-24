@@ -1,0 +1,3 @@
+data-model => scope define: attach model to form (bussines logic)
+data-key => two way bind: which key in the model this input is ...
+data-bind => one way bind.
